@@ -8,6 +8,17 @@
     - el cliente tambien sale beneficiado ya que nuestro codigo sera mantenible y entendible.
 
     Todos los involucrados salen beneficiados.
+
+    Ejen que hacen a la calidad del codigo--------
+    se identifica por caracteristicas externas o internas.
+    nos concentraremos en las internas.
+    Tres ejes se componen
+    -Legibilidad que tan facil es interpretar lo que el codigo dice, ejemplo de practica no identar el codigo
+    - Mantenibilidad cuanto esfuerzo supondra adaptar el codigo a nuevos requerimientos
+    - Testeabilidad cuanto esfuerzo supondra realizar pruebas sobre este código
+
+    
+    
 */
 
 print("Hi first commit");
