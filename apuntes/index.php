@@ -52,7 +52,25 @@
     - respetalo Haz un esfuerxo por adherir al estandar durante tu dia a dia
     -apoyate en algun linter esta herramineta ayuda a incorporarbuenas practicas, analiza el codigo frente a un estandar
 
+    problemas dificiles invalidar caches y nombrar cosas veamos con nombrar cosas.
 
+    identificador
+        un nombre que no existe pero se crea ej variables, clase, módulos, componentes, etc.
     */
-
+    function f(int $b,int$a):float{
+        return ($b * $a)/2;
+    }
+    /* que hace este codigo, tenemos que adivinar que hace y como no es intuitiva */
+    function calcula(int $base, int $altura):float{
+        return ($base * $altura)/2;
+    }
+    /* que calcula? */
+    function areaRectangulo(int $base, int $altura):float{
+        return ($base * $altura)/2;
+    }
+    /* no calcula un rectangulo, es engañoso */
+    function areaTriangulo(int $base, int $altura):float{
+        return ($base * $altura)/2;
+    }
+    /* se sabe que hae la funcion a simple vista */
 print("Hi first commit");
