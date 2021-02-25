@@ -72,5 +72,36 @@
     function areaTriangulo(int $base, int $altura):float{
         return ($base * $altura)/2;
     }
-    /* se sabe que hae la funcion a simple vista */
+    /* se sabe que hace la funcion a simple vista 
+    
+    --------------------CODIGO MODULAR------------
+    Hacer codigo organizado en bloque que puedan ser compuesto
+    */
+    if($a<2 && $a<3){
+        print($a);    
+        print($a + $a);    
+        print($a + 2);    
+        print($a + 3);    
+        print($a + 7);    
+        print($a + 8);    
+        print($a + 10);    
+        print($a + 12);    
+    }
+    /* podemos llevarlo a una funcion */
+    function sumaA($a){
+        if($a<2 && $a<3){
+            print($a);    
+            print($a + $a);    
+            print($a + 2);    
+            print($a + 3);    
+            print($a + 7);    
+            print($a + 8);    
+            print($a + 10);    
+            print($a + 12);    
+        }
+    }
+
+    sumaA();
+    /* si tenemos que corregir algo podemos buscar en las funciones, al hacer debugs te facilita bastante, bloques dentro de una repetitiva, expresiones de repeticion, codigo que hace calculos complejos y con frecuencia*/
+
 print("Hi first commit");
