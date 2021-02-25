@@ -132,5 +132,21 @@
 
         es una convencion otra persona puede verlo y entenderlo sin problema
     */
+
+    /* -------------------HARDcODING----------------------
+        Es la paractica de escribir valores literales en lugar de identificadores, las consecuencias impactan en el codigo, volver a desplegar el codigo sin embargo deberia ser un cambio facil.
+    */
+    $numero = $a + 5;
+    echo "el valor es 5 más".$numero;
+    //que pasa si deseamos cambiar el 5 suponiendo que sea una constante que podria cambiar cada cierto tiempo como el tipo de cambio
+
+    $constante = 5;
+    $numero = $a + $constante;
+    echo "el valor es 5 más".$numero;
+    /* si hacemos un cambio solo impacta en la variable y no en todo el programa.
     
+    el hardcoding tambien oculta informacion*/
+
+    
+
 print("Hi first commit");
