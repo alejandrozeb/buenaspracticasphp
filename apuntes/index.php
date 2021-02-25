@@ -104,4 +104,20 @@
     sumaA();
     /* si tenemos que corregir algo podemos buscar en las funciones, al hacer debugs te facilita bastante, bloques dentro de una repetitiva, expresiones de repeticion, codigo que hace calculos complejos y con frecuencia*/
 
+    /* -----------------Codigo reutilizable-------------
+        Codigo que se pueda utilizar en diferentes situaciones, el codigo debe ser claro con los objetivos y el copy paste es nuestro peor enemigo los errores se puden ir arrastrando y nunca vamos a tener certeza de lo bueno o lo malo que puede estar nuestro codigo
+    */
+    $nombre = "alejandro";
+    $apellido = "zeballos";
+    $nombre = str_replace("?", 'o', $nombre);
+    $apellido = str_replace("?", 'o', $apellido);
+
+    /* usamos el codigo dos veces podemos crear una funcion */
+
+    function normalizar($campo){
+        return str_replace("?", 'o', $campo);
+    }
+
+    $nombre = normalizar($nombre);
+    $apellido = normalizar($apellido);
 print("Hi first commit");
