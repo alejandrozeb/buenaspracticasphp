@@ -119,5 +119,18 @@
     }
 
     $nombre = normalizar($nombre);
-    $apellido = normalizar($apellido);
+    $apellido =
+     normalizar($apellido);
+    // esto puede prevenir bugs 
+    /* ----------------------Codigo Organizado--------------
+        nos referimos a como esta el sistema de archivos donde nuestro codigo esta organizado, como esta dispuesto.
+        Se trata de logar una organizacion agrupada con sentido.
+        /public
+        /src    codigo proyecto
+        /tests  codigo de test
+        /vendor 
+
+        es una convencion otra persona puede verlo y entenderlo sin problema
+    */
+    
 print("Hi first commit");
