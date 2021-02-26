@@ -151,5 +151,11 @@
         es algo que sucede mas alla de lo que se esta viedno un ejemplo puede ser afectar a una variable global en una funcion, editar una variable global en un metodo,
         no solo debemos ver el codigo si no extraer del contexto, nunca usar variables globales
     */
+    /* -------SOLID ---------------------------------------
+    Desarrollo, principios basicos de la programcion orientada a objetos, ayuda a crear a software mantenible en el tiempo, y asi sea mas robusto
+
+    - SIngle Responsibility Principle
+        una clase debe tener solo una razon para cambiar, una sola cohecion, facilita detectar errores las calses mucho mas facil reutilizable, evitar una classe que llegue a hacer todo
+    */
 
 print("Hi first commit");
