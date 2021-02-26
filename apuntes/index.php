@@ -147,6 +147,9 @@
     
     el hardcoding tambien oculta informacion*/
 
-    
+    /* ----------EFECTOS COLATERALES----------------
+        es algo que sucede mas alla de lo que se esta viedno un ejemplo puede ser afectar a una variable global en una funcion, editar una variable global en un metodo,
+        no solo debemos ver el codigo si no extraer del contexto, nunca usar variables globales
+    */
 
 print("Hi first commit");
