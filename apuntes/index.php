@@ -169,6 +169,10 @@
         la clase hija no debe alterar el comportamiento de la clase padre al sobreescribir un metodo o no debe enviar una excepcion difereente de la del padre.
 
         si se llega alterar por alguna razon debemos preguntarnos si en realidad es una relacion de herencia o es de otro tipo.
+    - Interface segregation
+        Los clientes de un progrma dado solo deberian conocer de este auellos metodos que realmente usan.
+        Una clase puede implemetnar tantas interfaces como sea necesario
+        debemos elegir bien que interfaces son necesaria y que deben tener.
 
     */
 
