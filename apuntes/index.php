@@ -156,6 +156,13 @@
 
     - SIngle Responsibility Principle
         una clase debe tener solo una razon para cambiar, una sola cohecion, facilita detectar errores las calses mucho mas facil reutilizable, evitar una classe que llegue a hacer todo
+    - OPENCLOSED
+        Una entidad de software debe quedarse abierta para su extension, pero cerrada para su modificacion.
+        si aparece un nuevo requerimiento debe adaptarse al software y no cambiar todo.
+        Se debe repartir bine las responsabilidades  y no delegarlas a un solo metodo o funcion.
+        Tambien se puede subir un nivel de abstraccion
+    Liskov substitution
+    
     */
 
 print("Hi first commit");
