@@ -173,7 +173,14 @@
         Los clientes de un progrma dado solo deberian conocer de este auellos metodos que realmente usan.
         Una clase puede implemetnar tantas interfaces como sea necesario
         debemos elegir bien que interfaces son necesaria y que deben tener.
+    - DEPENDENCY INVERSION
+        Los modulos de alto nivel no deben depedner de los de bajo nivel, ambos deben depender de abstracciones
+        Las abstracciones no deben depedender de los detalles, los detalles deben depedner de las abstracciones.
 
+        alto nivel logica de negocio
+        bajo nivel las clases que ayudan a las de alto nivel.
+
+        
     */
 
 print("Hi first commit");
