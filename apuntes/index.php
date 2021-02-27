@@ -161,8 +161,15 @@
         si aparece un nuevo requerimiento debe adaptarse al software y no cambiar todo.
         Se debe repartir bine las responsabilidades  y no delegarlas a un solo metodo o funcion.
         Tambien se puede subir un nivel de abstraccion
-    Liskov substitution
-    
+    - Liskov substitution
+        Cada clase que hereda de otra puede usarse como su padre sin necesidad de conocer las diferencias entre ellas.
+        El cliente debe usar metodos de la clase padre únicamente
+        La clase hija no debe alterar el comportamiento de los metodos de la clase padre.
+
+        la clase hija no debe alterar el comportamiento de la clase padre al sobreescribir un metodo o no debe enviar una excepcion difereente de la del padre.
+
+        si se llega alterar por alguna razon debemos preguntarnos si en realidad es una relacion de herencia o es de otro tipo.
+
     */
 
 print("Hi first commit");
