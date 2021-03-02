@@ -179,8 +179,15 @@
 
         alto nivel logica de negocio
         bajo nivel las clases que ayudan a las de alto nivel.
+    */
 
-        
+    /* ---------TDD--------------------------------------- 
+        TDD Propone primero realizar las pruebas y luego el desarrollo, como probar algo que no existe.
+        Tomar una funcinalidad pensar en el resultado
+        ejecutamos sale rojo
+        escribimos el codigo para pasar la prueba pasamos la prueba
+        refactorizamos el codigo que tambien debe psar la prueba.
+        Tdd nos empuja a escribir lo minimo posible, en php se usa php unit
     */
 
 print("Hi first commit");
