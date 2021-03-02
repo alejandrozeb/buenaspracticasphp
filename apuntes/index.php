@@ -213,8 +213,8 @@
         cuando documentar
         CUando el codigo se escribir en cuanto se termina la funcionalidad
         Cuando terminaste de resolver un problema.
-
-        
+        git clone https://github.com/mchojrin/GuestBook.git
+        puedess ver un proyecto con todos los conceptos aplicados
     */
 
 print("Hi first commit");
