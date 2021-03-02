@@ -188,6 +188,33 @@
         escribimos el codigo para pasar la prueba pasamos la prueba
         refactorizamos el codigo que tambien debe psar la prueba.
         Tdd nos empuja a escribir lo minimo posible, en php se usa php unit
+
+        --------Pull_request-------------------------
+        Mejoras una version del codigo, Forks bifurkacion una copia del codigo una vez terminado puedes hacer el pull request.
+        y el propietario pude ver si apruba o no la version
+
+        hacemos el cambio y creamos una nueva rama
+        Sirve para desarrollo colaborativo
+
+        ------Documentacion------------------
+        dejar por escrito las decisiones como esta escrito el codigo
+        que se debe documentar?
+        LO minimo ques e necesita?
+        como implementar una nueva funcionalidad
+        pruebas
+        integracion
+        COmo documentar?
+        si es tecnico puede ser lenguaje tecnico
+        SI es una persona no tecinica puede ser coloquial
+        los diagramas nos ayudad a expresar como el UML 
+        Donde documentar
+        dentro del codigo o otro repositorio
+
+        cuando documentar
+        CUando el codigo se escribir en cuanto se termina la funcionalidad
+        Cuando terminaste de resolver un problema.
+
+        
     */
 
 print("Hi first commit");
